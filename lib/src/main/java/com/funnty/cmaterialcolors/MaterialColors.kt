@@ -4,6 +4,17 @@ import androidx.compose.runtime.Stable
 import androidx.compose.ui.graphics.Color
 
 
+/**
+ * **IF YOU WANT TO COPY THE FILE , PLEASE KEEP THE INFORMATION ABOUT THE AUTHOR**
+ *
+ * Material Colors
+ *
+ * Each of them is the instance of [androidx.compose.ui.graphics.Color], and they act just like what you think
+ *
+ * @author FunnySaltyFish [Github](https://github.com/FunnySaltyFish) [Gitee](https://gitee.com/FunnySaltyFish)
+ * @date 2021-06-15 16:04:00
+ *
+ */
 class MaterialColors {
     companion object{
         @Stable
