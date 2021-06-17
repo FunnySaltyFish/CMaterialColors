@@ -3,6 +3,8 @@ plugins {
     id 'kotlin-android'
 }
 
+
+
 android {
     compileSdk 30
     buildToolsVersion "30.0.3"
@@ -41,6 +43,16 @@ android {
         kotlinCompilerExtensionVersion compose_version
         kotlinCompilerVersion '1.4.32'
     }
+
+    configurations.all {
+        resolutionStrategy {
+            eachDependency { DependencyResolveDetails details ->
+                if (details.requested.group == 'org.jetbrains.kotlin') {
+                    details.useVersion kotlin_version
+                }
+            }
+        }
+    }
 }
 
 dependencies {
@@ -55,4 +67,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+    testImplementation "org.jetbrains.kotlin:kotlin-test:$kotlin_version"
 }
