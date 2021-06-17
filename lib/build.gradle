@@ -1,8 +1,9 @@
 plugins {
     id 'com.android.library'
-    id 'kotlin-android'
-    id 'maven-publish'
 }
+
+apply plugin: 'maven-publish'
+apply plugin: 'kotlin-android'
 
 
 task generateSourcesJar(type: Jar) {
@@ -64,9 +65,9 @@ android {
             repositories {
                 maven {
                     // change URLs to point to your repos, e.g. http://my.org/repo
-                    def baseUrl = buildDir.getParent()
-                    def releasesRepoUrl = "$baseUrl/repos/releases"
-                    def snapshotsRepoUrl = "$baseUrl/repos/snapshots"
+                    def baseUrl = buildDir.getParent() + "/.m2/repository"
+                    def releasesRepoUrl = "$baseUrl/releases"
+                    def snapshotsRepoUrl = "$baseUrl/snapshots"
                     url = version.endsWith('SNAPSHOT') ? snapshotsRepoUrl : releasesRepoUrl
                 }
             }
