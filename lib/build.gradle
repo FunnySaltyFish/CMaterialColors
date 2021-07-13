@@ -1,10 +1,8 @@
 plugins {
     id 'com.android.library'
+    id 'kotlin-android'
+    id 'maven-publish'
 }
-
-apply plugin: 'maven-publish'
-apply plugin: 'kotlin-android'
-
 
 task generateSourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
@@ -18,6 +16,8 @@ android {
     defaultConfig {
         minSdk 19
         targetSdk 30
+        versionCode 1
+        versionName "1.0.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -39,7 +39,7 @@ android {
 
     afterEvaluate {
         publishing {
-            def versionName = "1.0.1"
+            def versionName = "1.0.2"
             publications {
                 // Creates a Maven publication called "release".
                 release(MavenPublication) {
@@ -47,9 +47,10 @@ android {
                     from components.release
 
                     // You can then customize attributes of the publication as shown below.
-                    groupId = 'com.funny.cmaterialcolors'
-                    artifactId = 'release'
+                    groupId = 'com.funny.composelib'
+                    artifactId = 'cmaterialcolors'
                     version = versionName
+
                 }
                 // Creates a Maven publication called “debug”.
 //                debug(MavenPublication) {
@@ -65,9 +66,9 @@ android {
             repositories {
                 maven {
                     // change URLs to point to your repos, e.g. http://my.org/repo
-                    def baseUrl = buildDir.getParent() + "/.m2/repository"
-                    def releasesRepoUrl = "$baseUrl/releases"
-                    def snapshotsRepoUrl = "$baseUrl/snapshots"
+                    def baseUrl = buildDir.getParent()
+                    def releasesRepoUrl = "$baseUrl/repos/releases"
+                    def snapshotsRepoUrl = "$baseUrl/repos/snapshots"
                     url = version.endsWith('SNAPSHOT') ? snapshotsRepoUrl : releasesRepoUrl
                 }
             }
@@ -77,5 +78,9 @@ android {
 
 dependencies {
     implementation 'androidx.core:core-ktx:1.5.0'
-    implementation "androidx.compose.ui:ui:1.0.0-beta08"
+    implementation "androidx.compose.ui:ui:1.0.0-beta09"
+}
+
+repositories {
+    mavenCentral()
 }
