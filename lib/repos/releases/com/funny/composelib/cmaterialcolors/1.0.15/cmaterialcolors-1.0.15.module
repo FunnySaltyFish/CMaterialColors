@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.funny.composelib",
+    "module": "cmaterialcolors",
+    "version": "1.0.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmaterialcolors-1.0.15.aar",
+          "url": "cmaterialcolors-1.0.15.aar",
+          "size": 22099,
+          "sha512": "538cbbbd2e0691c75c4be287ef7a94297a51ddc26aad4598368ad643917933135423147bf835b77dbc4be38a72c130b69502369e227baf467c4234e8c725d645",
+          "sha256": "76a47da39d6edbf28fc5503eaf5db6ebf6ea41a0d7f3544aaa04882353a46131",
+          "sha1": "20abdfc81b625df0a8ec524a23a7bfb02fea270b",
+          "md5": "5f3429c8f57318354c0c928ee21216f5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.0-beta09"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmaterialcolors-1.0.15.aar",
+          "url": "cmaterialcolors-1.0.15.aar",
+          "size": 22099,
+          "sha512": "538cbbbd2e0691c75c4be287ef7a94297a51ddc26aad4598368ad643917933135423147bf835b77dbc4be38a72c130b69502369e227baf467c4234e8c725d645",
+          "sha256": "76a47da39d6edbf28fc5503eaf5db6ebf6ea41a0d7f3544aaa04882353a46131",
+          "sha1": "20abdfc81b625df0a8ec524a23a7bfb02fea270b",
+          "md5": "5f3429c8f57318354c0c928ee21216f5"
+        }
+      ]
+    }
+  ]
+}
