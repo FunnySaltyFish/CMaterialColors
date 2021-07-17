@@ -3,7 +3,7 @@
   "component": {
     "group": "com.funny.composelib",
     "module": "cmaterialcolors",
-    "version": "1.0.16",
+    "version": "1.0.18",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,13 +33,13 @@
       ],
       "files": [
         {
-          "name": "cmaterialcolors-1.0.16.aar",
-          "url": "cmaterialcolors-1.0.16.aar",
-          "size": 22099,
-          "sha512": "538cbbbd2e0691c75c4be287ef7a94297a51ddc26aad4598368ad643917933135423147bf835b77dbc4be38a72c130b69502369e227baf467c4234e8c725d645",
-          "sha256": "76a47da39d6edbf28fc5503eaf5db6ebf6ea41a0d7f3544aaa04882353a46131",
-          "sha1": "20abdfc81b625df0a8ec524a23a7bfb02fea270b",
-          "md5": "5f3429c8f57318354c0c928ee21216f5"
+          "name": "cmaterialcolors-1.0.18.aar",
+          "url": "cmaterialcolors-1.0.18.aar",
+          "size": 22174,
+          "sha512": "a95292da2f3504b5a0bf8335a9a2f5075aa69207da87aa21f25aedd1dca86240a623d1a024b04617f159314a65e1b0cafa183611321e33b92bdc237713376a0d",
+          "sha256": "9f5e298c8d609721b1566ef79084d1839953a7dfdaca79d874bee2c16cfc2a77",
+          "sha1": "32dda9d30cc59ca3a0dc85785fc21eea589bdfef",
+          "md5": "8c5da814b072f935b6d01919a1f9301a"
         }
       ]
     },
@@ -76,13 +76,13 @@
       ],
       "files": [
         {
-          "name": "cmaterialcolors-1.0.16.aar",
-          "url": "cmaterialcolors-1.0.16.aar",
-          "size": 22099,
-          "sha512": "538cbbbd2e0691c75c4be287ef7a94297a51ddc26aad4598368ad643917933135423147bf835b77dbc4be38a72c130b69502369e227baf467c4234e8c725d645",
-          "sha256": "76a47da39d6edbf28fc5503eaf5db6ebf6ea41a0d7f3544aaa04882353a46131",
-          "sha1": "20abdfc81b625df0a8ec524a23a7bfb02fea270b",
-          "md5": "5f3429c8f57318354c0c928ee21216f5"
+          "name": "cmaterialcolors-1.0.18.aar",
+          "url": "cmaterialcolors-1.0.18.aar",
+          "size": 22174,
+          "sha512": "a95292da2f3504b5a0bf8335a9a2f5075aa69207da87aa21f25aedd1dca86240a623d1a024b04617f159314a65e1b0cafa183611321e33b92bdc237713376a0d",
+          "sha256": "9f5e298c8d609721b1566ef79084d1839953a7dfdaca79d874bee2c16cfc2a77",
+          "sha1": "32dda9d30cc59ca3a0dc85785fc21eea589bdfef",
+          "md5": "8c5da814b072f935b6d01919a1f9301a"
         }
       ]
     }
