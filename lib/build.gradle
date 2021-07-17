@@ -42,12 +42,13 @@ android {
         compose true
     }
     composeOptions {
+        kotlinCompilerVersion kotlin_version
         kotlinCompilerExtensionVersion compose_version
     }
 
     afterEvaluate {
         publishing {
-            def versionName = "1.0.18"
+            def versionName = "1.0.19"
             publications {
                 // Creates a Maven publication called "release".
                 release(MavenPublication) {
