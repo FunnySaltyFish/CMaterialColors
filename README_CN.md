@@ -8,7 +8,7 @@
 
 你可以选择下面的任意一种方式引入本库
 
-- 将位于[lib/src/main/java/com/funnty/cmaterialcolors/CMaterialColors.kt](/lib/src/main/java/com/funnty/cmaterialcolors/CMaterialColors.kt) 的文件拷贝到您的项目中，按需修改包名即可
+- 将位于[lib/src/main/java/com/funny/cmaterialcolors/CMaterialColors.kt](/lib/src/main/java/com/funny/cmaterialcolors/CMaterialColors.kt) 的文件拷贝到您的项目中，按需修改包名即可
 - <del>在项目级别的`build.gradle`中添加Maven仓库 ` maven { url "https://jitpack.io" }` 并在模块级别的`build.gradle` 中添加依赖`implementation "com.github.FunnySaltyFish:CMaterialColors:1.0.0"` </del>
 
 <small>理论上应该是有第二种方法的。但是，由于我多次尝试将其上传到jitpack.io均以失败告终，所以暂且不可以使用。如果你能帮我修复一下这个bug，我将感激不尽！！！</small>
