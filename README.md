@@ -10,12 +10,12 @@
 
 You can choose one of these ways to get it.
 
-- Simply copy the file which locates at `lib/src/main/java/com/funnty/cmaterialcolors/MaterialColors.kt` to your own project , and then modify the package name
+- Simply copy the file which locates at  [lib/src/main/java/com/funnty/cmaterialcolors/MaterialColors.kt](/lib/src/main/java/com/funnty/cmaterialcolors/MaterialColors.kt) to your own project , and then modify the package name
 - <del>Add maven source ` maven { url "https://jitpack.io" }` in your project's `build.gradle` and dependencies `implementation "com.github.FunnySaltyFish:CMaterialColors:1.0.0"` in your module's `build.gradle `</del>
 
 <small>There should be the second way , and it is more convenient than copying the file. However, I have tried a lot of times to upload the library to jitpack.io , but all failed to build in the end. I would really appreciate it if you could help me fix the bug!!!</small>
 
-<small>The failure building log is as below:</small>[output](https://jitpack.io/com/github/FunnySaltyFish/CMaterialColors/1.0.12/build.log)
+<small>The failure building log is as below:</small>[output](https://jitpack.io/com/github/FunnySaltyFish/CMaterialColors/1.0.19/build.log)
 
 
 
@@ -82,7 +82,7 @@ if __name__ == "__main__":
         f.write(code)
 ```
 
-To get the full code, check the file `generate_code_by_xml.py`
+To get the full code, check the file [generate_code_by_xml.py](generate_code_by_xml.py)
 
 
 
