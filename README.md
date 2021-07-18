@@ -10,7 +10,7 @@
 
 You can choose one of these ways to get it.
 
-- Simply copy the file which locates at  [lib/src/main/java/com/funnty/cmaterialcolors/MaterialColors.kt](/lib/src/main/java/com/funnty/cmaterialcolors/MaterialColors.kt) to your own project , and then modify the package name
+- Simply copy the file which locates at  [lib/src/main/java/com/funnty/cmaterialcolors/CMaterialColors.kt](/lib/src/main/java/com/funnty/cmaterialcolors/CMaterialColors.kt) to your own project , and then modify the package name
 - <del>Add maven source ` maven { url "https://jitpack.io" }` in your project's `build.gradle` and dependencies `implementation "com.github.FunnySaltyFish:CMaterialColors:1.0.0"` in your module's `build.gradle `</del>
 
 <small>There should be the second way , and it is more convenient than copying the file. However, I have tried a lot of times to upload the library to jitpack.io , but all failed to build in the end. I would really appreciate it if you could help me fix the bug!!!</small>
