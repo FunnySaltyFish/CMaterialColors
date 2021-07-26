@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.funny.composelib",
+    "module": "cmaterialcolors",
+    "version": "1.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cmaterialcolors-1.0.21.aar",
+          "url": "cmaterialcolors-1.0.21.aar",
+          "size": 22175,
+          "sha512": "1205615235f92bdc88a05c4c07702646628b576a8711a7645e37139ddcac5d5fba1ee4b1e96538472c661df5e89e09d6c1873ba0cea39d1db000ede5abc6ddb8",
+          "sha256": "ff95ee07210fb0793021c66360f58f7a7fb8e3d3a79a87e76e7a59b0eb8648da",
+          "sha1": "9cb3d81d3c7021e946c9e5759232f5c6a5526e29",
+          "md5": "2124d9f3c061a6a3c8e616ab11417269"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.0-rc01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmaterialcolors-1.0.21.aar",
+          "url": "cmaterialcolors-1.0.21.aar",
+          "size": 22175,
+          "sha512": "1205615235f92bdc88a05c4c07702646628b576a8711a7645e37139ddcac5d5fba1ee4b1e96538472c661df5e89e09d6c1873ba0cea39d1db000ede5abc6ddb8",
+          "sha256": "ff95ee07210fb0793021c66360f58f7a7fb8e3d3a79a87e76e7a59b0eb8648da",
+          "sha1": "9cb3d81d3c7021e946c9e5759232f5c6a5526e29",
+          "md5": "2124d9f3c061a6a3c8e616ab11417269"
+        }
+      ]
+    }
+  ]
+}
