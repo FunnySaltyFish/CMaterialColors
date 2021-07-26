@@ -18,8 +18,6 @@ android {
     defaultConfig {
         minSdk 19
         targetSdk 30
-        versionCode 1
-        versionName "1.0.14"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -48,7 +46,7 @@ android {
 
     afterEvaluate {
         publishing {
-            def versionName = "1.0.19"
+            def versionName = "1.0.20"
             publications {
                 // Creates a Maven publication called "release".
                 release(MavenPublication) {
