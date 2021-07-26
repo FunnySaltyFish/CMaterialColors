@@ -1,3 +1,6 @@
+[![Version](https://jitpack.io/v/FunnySaltyFish/CMaterialColors.svg)](https://jitpack.io/#FunnySaltyFish/CMaterialColors)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+
 ## 简介
 
 **CMaterialColors**帮助您在**Jetpack Compose**项目中轻松使用**MaterialColors**
@@ -9,11 +12,11 @@
 你可以选择下面的任意一种方式引入本库
 
 - 将位于[lib/src/main/java/com/funny/cmaterialcolors/CMaterialColors.kt](/lib/src/main/java/com/funny/cmaterialcolors/CMaterialColors.kt) 的文件拷贝到您的项目中，按需修改包名即可
-- <del>在项目级别的`build.gradle`中添加Maven仓库 ` maven { url "https://jitpack.io" }` 并在模块级别的`build.gradle` 中添加依赖`implementation "com.github.FunnySaltyFish:CMaterialColors:1.0.0"` </del>
+- 在项目级别的`build.gradle`中添加Maven仓库 ` maven { url "https://jitpack.io" }` 并在模块级别的`build.gradle` 中添加依赖`implementation 'com.github.FunnySaltyFish:CMaterialColors:1.0.21` 
 
-<small>理论上应该是有第二种方法的。但是，由于我多次尝试将其上传到jitpack.io均以失败告终，所以暂且不可以使用。如果你能帮我修复一下这个bug，我将感激不尽！！！</small>
+<small>如果你好奇为什么第一个版本号会是1.0.21，我可以告诉你，因为之前的所有版本提交到Jitpack.io都构建失败了！得益于互相抄袭的博主们，这个库硬是到这个版本号才构建成功</small>
 
-<small>构建失败的log如下所示</small>：[log](https://jitpack.io/com/github/FunnySaltyFish/CMaterialColors/1.0.19/build.log)
+<small>如果你对整个发布过程感兴趣，可以参阅</small>：[blog](https://funnysaltyfish.github.io/2021/07/26/jitpack-build-error-solve/)
 
 
 

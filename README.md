@@ -1,3 +1,6 @@
+[![Version](https://jitpack.io/v/FunnySaltyFish/CMaterialColors.svg)](https://jitpack.io/#FunnySaltyFish/CMaterialColors)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+
 ## introduction
 
 |[中文](README_CN.md)|
@@ -8,16 +11,12 @@
 
 ### Get the library
 
-You can choose one of these ways to get it.
+You can choose **one of these ways** to get it.
 
 - Simply copy the file which locates at  [lib/src/main/java/com/funny/cmaterialcolors/CMaterialColors.kt](/lib/src/main/java/com/funny/cmaterialcolors/CMaterialColors.kt) to your own project , and then modify the package name
-- <del>Add maven source ` maven { url "https://jitpack.io" }` in your project's `build.gradle` and dependencies `implementation "com.github.FunnySaltyFish:CMaterialColors:1.0.0"` in your module's `build.gradle `</del>
+- Add maven source ` maven { url "https://jitpack.io" }` in your project's `build.gradle` and dependencies `implementation 'com.github.FunnySaltyFish:CMaterialColors:1.0.21` in your module's `build.gradle `
 
-<small>There should be the second way , and it is more convenient than copying the file. However, I have tried a lot of times to upload the library to jitpack.io , but all failed to build in the end. I would really appreciate it if you could help me fix the bug!!!</small>
-
-<small>The failure building log is as below:</small>[output](https://jitpack.io/com/github/FunnySaltyFish/CMaterialColors/1.0.19/build.log)
-
-
+<small>If you wonder why the first version is `1.0.21`,what I can tell you is that I've tried (more than) 20 times to upload it to jitpack.io!!!</small>
 
 ### Use it in kotlin code
 
